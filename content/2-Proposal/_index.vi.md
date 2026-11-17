@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Bản đề xuất"
 date: 2026-11-06
 weight: 2
@@ -47,7 +47,7 @@ Dự án được xây dựng nhằm giải quyết bài toán tư vấn và bá
 ### 4. Kiến trúc giải pháp
 Toàn bộ hệ thống chạy theo mô hình Serverless, không cần quản lý máy chủ vật lý. Người dùng truy cập web qua CloudFront CDN; các API gọi về API Gateway REST; tính năng chat realtime đi qua WebSocket; các tác vụ nền đẩy vào EventBridge và SQS.
 
-![Kiến trúc tổng thể hệ thống](/static/images/2-Proposal/AWS_Architect_Final.drawio.png)
+![Kiến trúc tổng thể hệ thống](/fcj-workshop-template/images/2-Proposal/AWS_Architect_Final.drawio.png)
 
 *Dịch vụ AWS sử dụng*
 - *Amazon CloudFront & Functions*: CDN phân phối web, chèn security headers và đóng vai trò Edge WAF chặn XSS, SQLi...

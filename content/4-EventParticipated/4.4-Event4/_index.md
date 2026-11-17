@@ -147,6 +147,6 @@ Attending the **FPT University Workshop** helped me see how AI moves from a clas
 - The cloud lets a small team handle infrastructure needs that once required a large operation.
 
 #### Some event photos
-![image event4](/static/images/4-EventParticipated/event4.jpg)
+![image event4](/fcj-workshop-template/images/4-EventParticipated/event4.jpg)
 
 > Overall, the workshop gave me a clear picture of what it takes to turn an AI prototype into a secure, reliable and scalable product.

@@ -144,6 +144,6 @@ Tham gia **AWS Cloud and AI Day Hanoi** giúp tôi có cái nhìn thực tế v�
 - Chọn đúng model và công cụ cho từng task giúp tiết kiệm cả chi phí lẫn công sức.
 
 #### Một số hình ảnh khi tham gia sự kiện
-![image event2](/static/images/4-EventParticipated/event2.jpg)
+![image event2](/fcj-workshop-template/images/4-EventParticipated/event2.jpg)
 
 > Tổng thể, sự kiện giúp tôi nhìn AI không chỉ là công cụ tăng năng suất mà còn là một hệ thống cần được giám sát, bảo mật và quản trị.

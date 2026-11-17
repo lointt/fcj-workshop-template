@@ -144,6 +144,6 @@ Attending **AWS Cloud and AI Day Hanoi** gave me a practical view of how AI is a
 - Choosing the right model and tool for each task saves both cost and effort.
 
 #### Some event photos
-![image event2](/static/images/4-EventParticipated/event2.jpg)
+![image event2](/fcj-workshop-template/images/4-EventParticipated/event2.jpg)
 
 > Overall, the event helped me see AI not only as a productivity tool but as a system that must be monitored, secured and governed.

@@ -47,7 +47,7 @@ This project addresses the challenge of advising on and retailing motorcycle par
 ### 4. Solution Architecture
 The whole system runs on a Serverless model with no physical servers to manage. Users access the website through the CloudFront CDN; APIs are called through API Gateway REST; real-time chat goes through WebSocket; background tasks are pushed into EventBridge and SQS.
 
-![Overall system architecture](/static/images/2-Proposal/AWS_Architect_Final.drawio.png)
+![Overall system architecture](/fcj-workshop-template/images/2-Proposal/AWS_Architect_Final.drawio.png)
 
 *AWS services used*
 - *Amazon CloudFront & Functions*: CDN for delivering the website, injecting security headers, and acting as an Edge WAF that blocks XSS, SQLi, etc.

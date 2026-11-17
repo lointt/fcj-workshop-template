@@ -111,6 +111,6 @@ Tham gia **“The Thinking Behind Building The Bot”** giúp tôi hiểu thực
 - Trình bày rõ ràng và trung thực cách mình giải quyết vấn đề rất quan trọng khi phỏng vấn.
 
 #### Một số hình ảnh khi tham gia sự kiện
-![image event1](/static/images/4-EventParticipated/event1.jpg)
+![image event1](/fcj-workshop-template/images/4-EventParticipated/event1.jpg)
 
 > Tổng thể, buổi talkshow thay đổi cách tôi nhìn các project chatbot: đó là những hệ thống cần được thiết kế để nhanh, chính xác, an toàn và tiết kiệm.

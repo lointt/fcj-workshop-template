@@ -160,6 +160,6 @@ Tham gia **FCAJ Meetup** tại Bitexco Financial Tower là một trải nghiệm
 - Cho người dùng quyền kiểm soát những gì AI ghi nhớ sẽ tạo thêm sự tin tưởng.
 
 #### Một số hình ảnh khi tham gia sự kiện
-![image event3](/static/images/4-EventParticipated/event3.jpg)
+![image event3](/fcj-workshop-template/images/4-EventParticipated/event3.jpg)
 
 > Tổng thể, buổi meetup giúp tôi hiểu rõ hơn cách AI agent được bảo mật, xây dựng và giữ ổn định trong các dự án thực tế.

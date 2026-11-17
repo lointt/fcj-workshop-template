@@ -147,6 +147,6 @@ Tham gia **FPT University Workshop** giúp tôi thấy AI đi từ một prototy
 - Cloud giúp một nhóm nhỏ xử lý các nhu cầu hạ tầng mà trước đây cần cả một bộ máy lớn.
 
 #### Một số hình ảnh khi tham gia sự kiện
-![image event4](/static/images/4-EventParticipated/event4.jpg)
+![image event4](/fcj-workshop-template/images/4-EventParticipated/event4.jpg)
 
 > Tổng thể, workshop giúp tôi hình dung rõ những gì cần có để biến một prototype AI thành một sản phẩm an toàn, đáng tin cậy và có thể mở rộng.
