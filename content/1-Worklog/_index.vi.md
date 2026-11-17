@@ -1,40 +1,13 @@
 ---
-title: "Báo cáo thực tập"
+title: "Worklog"
 date: 2026-09-13
 weight: 1
 chapter: false
+pre: " <b> 1. </b> "
 ---
 
-# Báo cáo thực tập
-### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Tấn Tài Lợi
+#### Worklog
 
-&emsp; **Số điện thoại:** 0813072077
+Tổng hợp công việc từng tuần trong chương trình thực tập tại AWS (First Cloud AI Journey), từ tuần 1 đến tuần 12.
 
-&emsp; **Email:** nguyentantailoi03052005@gmail.com
-
-&emsp; **Trường:** Đại học FPT TP.HCM
-
-&emsp; **Ngành:** trí tuệ nhân tạo
-
-&emsp; **Lớp:** SE193499
-
-&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Viet Nam
-
-&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
-
-&emsp; **Thời gian thực tập:** Từ ngày 14/09/2026 đến ngày 14/12/2026
-
-![Ảnh đại diện của bạn](/fcj-workshop-template/images/avatar.jpg)
-
-
-
-### Nội dung báo cáo
-
-1.  [Worklog](1-Worklog/)
-2.  [Proposal](2-Proposal/)
-3.  [Các bài blogs đã đăng](3-BlogsPosted/)
-4.  [Các events đã tham gia](4-EventParticipated/)
-5.  [Workshop](5-Workshop/)
-6.  [Tự đánh giá](6-Self-evaluation/)
-7.  [Chia sẻ, đóng góp ý kiến](7-Feedback/)
+Chọn một tuần ở thanh bên trái để xem chi tiết.

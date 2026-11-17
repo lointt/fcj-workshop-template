@@ -1,39 +1,13 @@
 ---
-title: "Internship Report"
+title: "Worklog"
 date: 2026-09-13
 weight: 1
 chapter: false
+pre: " <b> 1. </b> "
 ---
 
-    
-# Internship Report
-### Student Information:
-&emsp; **Full Name:** Nguyen Tan Tai Loi
+#### Worklog
 
-&emsp; **Phone Number:** 0813072077 
+Weekly summary of the internship program at AWS (First Cloud AI Journey), from week 1 to week 12.
 
-&emsp; **Email:** nguyentantailoi@gmail.com
-
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
-
-&emsp; **Major:** artificial intelligence
-
-&emsp; **Class:** SE193499
-
-&emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
-
-&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
-
-&emsp; **Internship Duration:** From 14/09/2026 to 14/12/2026
-
-![Your profile picture](/fcj-workshop-template/images/avatar.jpg)
-
-### Report Content
-
-1.  [Worklog](1-Worklog/)
-2.  [Proposal](2-Proposal/)
-3.  [BlogsPosted](3-BlogsPosted/)
-4.  [Events Participated](4-EventParticipated/)
-5.  [Workshop](5-Workshop/)
-6.  [Self-evaluation](6-Self-evaluation/)
-7.  [Sharing and Feedback](7-Feedback/)
+Select a week in the left sidebar to see its details.
