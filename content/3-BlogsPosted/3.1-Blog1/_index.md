@@ -107,4 +107,4 @@ From here, `agentcore add memory`, `agentcore add gateway` and `agentcore add ru
 * [Amazon Bedrock AgentCore (AWS Prescriptive Guidance)](https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/amazon-bedrock-agentcore.html)
 * [Get started with Amazon Bedrock AgentCore (AWS Docs)](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-get-started-cli.html)
 
-![Amazon Bedrock AgentCore overview](/fcj-workshop-template/images/3-BlogsPosted/blog1.jpg)
+![Amazon Bedrock AgentCore overview](/static/images/3-BlogsPosted/blog1.jpg)

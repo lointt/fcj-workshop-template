@@ -1,0 +1,5 @@
+{{- /* Link tới file trong static (vd: /static/attachments/x.csv) -> thêm baseURL khi build */ -}}
+{{- $href := .Destination -}}
+{{- if hasPrefix $href "/fcj-workshop-template/" -}}{{- $href = strings.TrimPrefix "/fcj-workshop-template" $href -}}{{- end -}}
+{{- if hasPrefix $href "/static/" -}}{{- $href = strings.TrimPrefix "/static" $href | relURL -}}{{- end -}}
+<a href="{{ $href | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>

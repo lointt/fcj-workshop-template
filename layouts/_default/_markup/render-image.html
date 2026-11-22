@@ -1,0 +1,7 @@
+{{- /* Cho phép viết ảnh là /static/images/... (hiển thị được ở preview local) hoặc /images/...
+       Hugo sẽ tự bỏ "/static" và thêm baseURL (vd: /fcj-workshop-template/) khi build. */ -}}
+{{- $src := .Destination -}}
+{{- if hasPrefix $src "/fcj-workshop-template/" -}}{{- $src = strings.TrimPrefix "/fcj-workshop-template" $src -}}{{- end -}}
+{{- if hasPrefix $src "/static/" -}}{{- $src = strings.TrimPrefix "/static" $src -}}{{- end -}}
+{{- if hasPrefix $src "/" -}}{{- $src = $src | relURL -}}{{- end -}}
+<img src="{{ $src | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} />

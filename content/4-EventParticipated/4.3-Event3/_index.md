@@ -160,6 +160,6 @@ Attending the **FCAJ Meetup** at Bitexco Financial Tower was a useful, relaxed e
 - Giving users control over what an AI remembers builds trust.
 
 #### Some event photos
-![image event3](/fcj-workshop-template/images/4-EventParticipated/event3.jpg)
+![image event3](/static/images/4-EventParticipated/event3.jpg)
 
 > Overall, the meetup gave me a clearer picture of how AI agents are secured, built and kept reliable in real projects.

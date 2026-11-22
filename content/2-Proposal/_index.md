@@ -9,7 +9,7 @@ pre: " <b> 2. </b> "
 # Motorcycle E-Commerce & RAG Chatbot Platform
 ## A Serverless Motorcycle Parts Store and Intelligent Advisory Chatbot on AWS
 
-### 1. Executive Summary
+### 1. Problem Overview
 This project addresses the challenge of advising on and retailing motorcycle parts online. The hardest part of this industry is the sheer number of part codes and motorcycle models, which makes it very easy for customers to buy the wrong part, while stores spend a lot of staff time answering chats. The system combines a Next.js e-commerce website with a RAG Chatbot (real-time part compatibility advice over WebSocket) on a 100% AWS Serverless platform. The solution automates consulting, processes orders asynchronously, provides strong security, and keeps operating costs extremely low.
 
 ### 2. Objectives & Scope
@@ -47,7 +47,7 @@ This project addresses the challenge of advising on and retailing motorcycle par
 ### 4. Solution Architecture
 The whole system runs on a Serverless model with no physical servers to manage. Users access the website through the CloudFront CDN; APIs are called through API Gateway REST; real-time chat goes through WebSocket; background tasks are pushed into EventBridge and SQS.
 
-![Overall system architecture](/fcj-workshop-template/images/2-Proposal/AWS_Architect_Final.drawio.png)
+![Overall system architecture](/static/images/2-Proposal/AWS_Architect_Final.drawio.png)
 
 *AWS services used*
 - *Amazon CloudFront & Functions*: CDN for delivering the website, injecting security headers, and acting as an Edge WAF that blocks XSS, SQLi, etc.

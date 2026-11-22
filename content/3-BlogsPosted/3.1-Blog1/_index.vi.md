@@ -107,4 +107,4 @@ Sau đó bạn có thể thêm `agentcore add memory`, `agentcore add gateway`, 
 * [Amazon Bedrock AgentCore (AWS Prescriptive Guidance)](https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/amazon-bedrock-agentcore.html)
 * [Get started with Amazon Bedrock AgentCore (AWS Docs)](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-get-started-cli.html)
 
-![post on AWS Study Group VN Fb Group](/fcj-workshop-template/images/3-BlogsPosted/blog1.jpg)
+![post on AWS Study Group VN Fb Group](/static/images/3-BlogsPosted/blog1.jpg)
