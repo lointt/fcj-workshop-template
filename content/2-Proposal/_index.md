@@ -47,7 +47,7 @@ This project addresses the challenge of advising on and retailing motorcycle par
 ### 4. Solution Architecture
 The whole system runs on a Serverless model with no physical servers to manage. Users access the website through the CloudFront CDN; APIs are called through API Gateway REST; real-time chat goes through WebSocket; background tasks are pushed into EventBridge and SQS.
 
-![Overall system architecture](/static/images/2-Proposal/AWS_Architect_Final.drawio.png)
+![Overall system architecture](/static/images/2-Proposal/AWS_Architecture.drawio.png)
 
 *AWS services used*
 - *Amazon CloudFront & Functions*: CDN for delivering the website, injecting security headers, and acting as an Edge WAF that blocks XSS, SQLi, etc.
@@ -86,7 +86,7 @@ The whole system runs on a Serverless model with no physical servers to manage. 
 - *Weeks 7–8*: Security testing, cost optimization, and production launch.
 
 ### 7. Budget Estimation
-Costs can be viewed on the [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=4d5d55d1dde6ee9ab5f5e299f83edec7a0f05e53)
+Costs can be viewed on the [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=a7e8011b4c42dd57ec809519002009910500eb23)
 Or see the [budget estimate file](/static/attachments/Cost_Estimate.csv).
 *Infrastructure costs (detailed estimate from the AWS spreadsheet for a scale of 1,000 users/month):*
 - *AWS Secrets Manager*: USD 1.65/month (securely manages 4 secrets: Gemini Key, VNPay, GHN, Gmail SMTP; 10,000 API calls).

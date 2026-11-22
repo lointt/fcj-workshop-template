@@ -86,8 +86,8 @@ Toàn bộ hệ thống chạy theo mô hình Serverless, không cần quản l�
 - *Tuần 7, 8*: Kiểm thử bảo mật, tối ưu chi phí và đưa vào sử dụng thực tế.
 
 ### 7. Ước tính chi phí
-Có thể xem chi phí trên [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=39c74ad1017369129ed26cbab77bcca58f37c830)
-Hoặc xem [tệp ước tính ngân sách](/fcj-workshop-template/static/attachments/Cost_Estimate.csv).
+Có thể xem chi phí trên [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=a7e8011b4c42dd57ec809519002009910500eb23)
+Hoặc xem [tệp ước tính ngân sách](/static/attachments/Cost_Estimate.csv).
 *Chi phí hạ tầng (Dự toán chi tiết theo bảng tính AWS cho quy mô 1.000 users/tháng):*
 - *AWS Secrets Manager*: 1,65 USD/tháng (Quản lý an toàn 4 secrets: Gemini Key, VNPay, GHN, Gmail SMTP; 10.000 lượt gọi API).
 - *Amazon CloudFront*: 1,32 USD/tháng (10 GB data transfer out, 50.000 HTTPS requests và bộ lọc Edge WAF).
