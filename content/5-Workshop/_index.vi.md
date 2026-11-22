@@ -44,12 +44,11 @@ Trong suốt bài lab, bạn sẽ thực hành 3 trụ cột kiến trúc hiện
 
 #### Nội dung
 
-1. [Giới thiệu & Tổng quan kiến trúc](5.1-Workshop-overview/)
-2. [Điều kiện tiên quyết & Khởi tạo hạ tầng Terraform](5.2-Prerequiste/)
+1. [Giới thiệu & Tổng quan kiến trúc](5.1-workshop-overview/)
+2. [Điều kiện tiên quyết & Khởi tạo hạ tầng Terraform](5.2-prerequiste/)
 3. [Triển khai & Kiểm thử Frontend trên CloudFront](5.3-deploy-frontend/)
 4. [Triển khai & Kiểm thử Backend, Event-Driven và Chatbot RAG](5.4-deploy-backend/)
-5. [Dọn dẹp tài nguyên](5.5-Cleanup/)
-.Groups[1].Value.ToLower() + '/)' 
+5. [Dọn dẹp tài nguyên](5.5-cleanup/)
 2. [Điều kiện tiên quyết & Khởi tạo hạ tầng Terraform '](' + ---
 title: "Workshop"
 date: 2026-11-22
@@ -73,12 +72,11 @@ Trong suốt bài lab, bạn sẽ thực hành 3 trụ cột kiến trúc hiện
 
 #### Nội dung
 
-1. [Giới thiệu & Tổng quan kiến trúc](5.1-Workshop-overview/)
-2. [Điều kiện tiên quyết & Khởi tạo hạ tầng Terraform](5.2-Prerequiste/)
+1. [Giới thiệu & Tổng quan kiến trúc](5.1-workshop-overview/)
+2. [Điều kiện tiên quyết & Khởi tạo hạ tầng Terraform](5.2-prerequiste/)
 3. [Triển khai & Kiểm thử Frontend trên CloudFront](5.3-deploy-frontend/)
 4. [Triển khai & Kiểm thử Backend, Event-Driven và Chatbot RAG](5.4-deploy-backend/)
-5. [Dọn dẹp tài nguyên](5.5-Cleanup/)
-.Groups[1].Value.ToLower() + '/)' 
+5. [Dọn dẹp tài nguyên](5.5-cleanup/)
 3. [Triển khai & Kiểm thử Frontend trên CloudFront '](' + ---
 title: "Workshop"
 date: 2026-11-22
@@ -102,12 +100,11 @@ Trong suốt bài lab, bạn sẽ thực hành 3 trụ cột kiến trúc hiện
 
 #### Nội dung
 
-1. [Giới thiệu & Tổng quan kiến trúc](5.1-Workshop-overview/)
-2. [Điều kiện tiên quyết & Khởi tạo hạ tầng Terraform](5.2-Prerequiste/)
+1. [Giới thiệu & Tổng quan kiến trúc](5.1-workshop-overview/)
+2. [Điều kiện tiên quyết & Khởi tạo hạ tầng Terraform](5.2-prerequiste/)
 3. [Triển khai & Kiểm thử Frontend trên CloudFront](5.3-deploy-frontend/)
 4. [Triển khai & Kiểm thử Backend, Event-Driven và Chatbot RAG](5.4-deploy-backend/)
-5. [Dọn dẹp tài nguyên](5.5-Cleanup/)
-.Groups[1].Value.ToLower() + '/)' 
+5. [Dọn dẹp tài nguyên](5.5-cleanup/)
 4. [Triển khai & Kiểm thử Backend, Event-Driven và Chatbot RAG '](' + ---
 title: "Workshop"
 date: 2026-11-22
@@ -131,12 +128,11 @@ Trong suốt bài lab, bạn sẽ thực hành 3 trụ cột kiến trúc hiện
 
 #### Nội dung
 
-1. [Giới thiệu & Tổng quan kiến trúc](5.1-Workshop-overview/)
-2. [Điều kiện tiên quyết & Khởi tạo hạ tầng Terraform](5.2-Prerequiste/)
+1. [Giới thiệu & Tổng quan kiến trúc](5.1-workshop-overview/)
+2. [Điều kiện tiên quyết & Khởi tạo hạ tầng Terraform](5.2-prerequiste/)
 3. [Triển khai & Kiểm thử Frontend trên CloudFront](5.3-deploy-frontend/)
 4. [Triển khai & Kiểm thử Backend, Event-Driven và Chatbot RAG](5.4-deploy-backend/)
-5. [Dọn dẹp tài nguyên](5.5-Cleanup/)
-.Groups[1].Value.ToLower() + '/)' 
+5. [Dọn dẹp tài nguyên](5.5-cleanup/)
 5. [Dọn dẹp tài nguyên '](' + ---
 title: "Workshop"
 date: 2026-11-22
@@ -160,9 +156,8 @@ Trong suốt bài lab, bạn sẽ thực hành 3 trụ cột kiến trúc hiện
 
 #### Nội dung
 
-1. [Giới thiệu & Tổng quan kiến trúc](5.1-Workshop-overview/)
-2. [Điều kiện tiên quyết & Khởi tạo hạ tầng Terraform](5.2-Prerequiste/)
+1. [Giới thiệu & Tổng quan kiến trúc](5.1-workshop-overview/)
+2. [Điều kiện tiên quyết & Khởi tạo hạ tầng Terraform](5.2-prerequiste/)
 3. [Triển khai & Kiểm thử Frontend trên CloudFront](5.3-deploy-frontend/)
 4. [Triển khai & Kiểm thử Backend, Event-Driven và Chatbot RAG](5.4-deploy-backend/)
-5. [Dọn dẹp tài nguyên](5.5-Cleanup/)
-.Groups[1].Value.ToLower() + '/)' 
+5. [Dọn dẹp tài nguyên](5.5-cleanup/)

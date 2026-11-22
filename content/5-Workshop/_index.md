@@ -44,12 +44,11 @@ Throughout this lab, you will implement three core modern cloud pillars on AWS:
 
 #### Contents
 
-1. [Introduction & Architecture Overview](5.1-Workshop-overview/)
-2. [Prerequisites & Terraform Infrastructure Provisioning](5.2-Prerequiste/)
+1. [Introduction & Architecture Overview](5.1-workshop-overview/)
+2. [Prerequisites & Terraform Infrastructure Provisioning](5.2-prerequiste/)
 3. [Deploy & Test Frontend on CloudFront](5.3-deploy-frontend/)
 4. [Deploy & Test Backend, Event-Driven Pipeline & RAG Chatbot](5.4-deploy-backend/)
-5. [Cleanup Resources](5.5-Cleanup/)
-.Groups[1].Value.ToLower() + '/)' 
+5. [Cleanup Resources](5.5-cleanup/)
 2. [Prerequisites & Terraform Infrastructure Provisioning '](' + ---
 title: "Workshop"
 date: 2026-11-22
@@ -73,12 +72,11 @@ Throughout this lab, you will implement three core modern cloud pillars on AWS:
 
 #### Contents
 
-1. [Introduction & Architecture Overview](5.1-Workshop-overview/)
-2. [Prerequisites & Terraform Infrastructure Provisioning](5.2-Prerequiste/)
+1. [Introduction & Architecture Overview](5.1-workshop-overview/)
+2. [Prerequisites & Terraform Infrastructure Provisioning](5.2-prerequiste/)
 3. [Deploy & Test Frontend on CloudFront](5.3-deploy-frontend/)
 4. [Deploy & Test Backend, Event-Driven Pipeline & RAG Chatbot](5.4-deploy-backend/)
-5. [Cleanup Resources](5.5-Cleanup/)
-.Groups[1].Value.ToLower() + '/)' 
+5. [Cleanup Resources](5.5-cleanup/)
 3. [Deploy & Test Frontend on CloudFront '](' + ---
 title: "Workshop"
 date: 2026-11-22
@@ -102,12 +100,11 @@ Throughout this lab, you will implement three core modern cloud pillars on AWS:
 
 #### Contents
 
-1. [Introduction & Architecture Overview](5.1-Workshop-overview/)
-2. [Prerequisites & Terraform Infrastructure Provisioning](5.2-Prerequiste/)
+1. [Introduction & Architecture Overview](5.1-workshop-overview/)
+2. [Prerequisites & Terraform Infrastructure Provisioning](5.2-prerequiste/)
 3. [Deploy & Test Frontend on CloudFront](5.3-deploy-frontend/)
 4. [Deploy & Test Backend, Event-Driven Pipeline & RAG Chatbot](5.4-deploy-backend/)
-5. [Cleanup Resources](5.5-Cleanup/)
-.Groups[1].Value.ToLower() + '/)' 
+5. [Cleanup Resources](5.5-cleanup/)
 4. [Deploy & Test Backend, Event-Driven Pipeline & RAG Chatbot '](' + ---
 title: "Workshop"
 date: 2026-11-22
@@ -131,12 +128,11 @@ Throughout this lab, you will implement three core modern cloud pillars on AWS:
 
 #### Contents
 
-1. [Introduction & Architecture Overview](5.1-Workshop-overview/)
-2. [Prerequisites & Terraform Infrastructure Provisioning](5.2-Prerequiste/)
+1. [Introduction & Architecture Overview](5.1-workshop-overview/)
+2. [Prerequisites & Terraform Infrastructure Provisioning](5.2-prerequiste/)
 3. [Deploy & Test Frontend on CloudFront](5.3-deploy-frontend/)
 4. [Deploy & Test Backend, Event-Driven Pipeline & RAG Chatbot](5.4-deploy-backend/)
-5. [Cleanup Resources](5.5-Cleanup/)
-.Groups[1].Value.ToLower() + '/)' 
+5. [Cleanup Resources](5.5-cleanup/)
 5. [Cleanup Resources '](' + ---
 title: "Workshop"
 date: 2026-11-22
@@ -160,9 +156,8 @@ Throughout this lab, you will implement three core modern cloud pillars on AWS:
 
 #### Contents
 
-1. [Introduction & Architecture Overview](5.1-Workshop-overview/)
-2. [Prerequisites & Terraform Infrastructure Provisioning](5.2-Prerequiste/)
+1. [Introduction & Architecture Overview](5.1-workshop-overview/)
+2. [Prerequisites & Terraform Infrastructure Provisioning](5.2-prerequiste/)
 3. [Deploy & Test Frontend on CloudFront](5.3-deploy-frontend/)
 4. [Deploy & Test Backend, Event-Driven Pipeline & RAG Chatbot](5.4-deploy-backend/)
-5. [Cleanup Resources](5.5-Cleanup/)
-.Groups[1].Value.ToLower() + '/)' 
+5. [Cleanup Resources](5.5-cleanup/)
