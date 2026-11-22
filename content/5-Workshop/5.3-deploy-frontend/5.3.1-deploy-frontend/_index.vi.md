@@ -12,7 +12,7 @@ Trong phần này, bạn sẽ tải mã nguồn **Frontend (Next.js)** từ GitH
 
 ### Chuẩn bị môi trường
 
-* Trước khi bắt đầu, hãy đảm bảo bạn đã hoàn tất cấu hình hạ tầng AWS bằng Terraform tại [5.2-Prerequiste](/content/5-Workshop/5.2-Prerequiste/).
+* Trước khi bắt đầu, hãy đảm bảo bạn đã hoàn tất cấu hình hạ tầng AWS bằng Terraform tại [5.2-Prerequiste](../../5.2-prerequiste/).
 * Cài đặt **Node.js** phiên bản **20 trở lên** (Khuyến nghị **Node.js 22 LTS**): Tải tại [nodejs.org](https://nodejs.org/).
 
 Kiểm tra phiên bản Node.js trên Terminal / PowerShell:

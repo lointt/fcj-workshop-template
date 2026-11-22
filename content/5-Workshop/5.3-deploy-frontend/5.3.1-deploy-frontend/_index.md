@@ -12,7 +12,7 @@ In this section, you will download the **Frontend (Next.js)** source code from G
 
 ### Environment Prerequisites
 
-* Before starting, ensure you have completed provisioning the AWS infrastructure with Terraform in [5.2-Prerequiste](/content/5-Workshop/5.2-Prerequiste/).
+* Before starting, ensure you have completed provisioning the AWS infrastructure with Terraform in [5.2-Prerequiste](../../5.2-prerequiste/).
 * Install **Node.js** version **20 or higher** (Recommended: **Node.js 22 LTS**) from [nodejs.org](https://nodejs.org/).
 
 Verify your Node.js installation in Terminal / PowerShell:
