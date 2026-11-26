@@ -1,59 +1,30 @@
 ---
 title: "Worklog Tuần 10"
-date: 2024-01-01
+date: 2026-11-16
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 10:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu các dịch vụ AI quản lý sẵn cho ảnh và văn bản: Amazon Rekognition, Amazon Textract và Amazon Comprehend.
+* Kết hợp Amazon Rekognition với Amazon Athena để truy vấn kết quả phân tích ảnh bằng SQL.
+* Nắm cách quản lý bí mật và mã hóa trên AWS với AWS Secrets Manager và AWS KMS.
+* Tìm hiểu điều phối luồng xử lý serverless với AWS Step Functions.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - **Amazon Rekognition**: dịch vụ phân tích ảnh và video bằng deep learning<br>&emsp;+ Thử nghiệm `DetectLabels` qua AWS CLI trên 30 ảnh từ bộ dữ liệu Imagenette lưu trên S3<br>&emsp;+ So sánh ngưỡng `MinConfidence` (80 và 55) để thấy sự đánh đổi giữa độ phủ và độ chính xác<br>&emsp;+ Gộp kết quả JSON lên S3 và dùng Amazon Athena chạy SQL thống kê nhãn | 16/11/2026 | 16/11/2026 | <https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html> |
+| 3 | - **Amazon Textract**: trích xuất văn bản, biểu mẫu và bảng từ tài liệu scan và PDF<br>&emsp;+ Phân biệt API đồng bộ (`DetectDocumentText`, `AnalyzeDocument`) và bất đồng bộ cho PDF nhiều trang<br>&emsp;+ Tìm hiểu ứng dụng xử lý hóa đơn và số hóa danh mục sản phẩm | 17/11/2026 | 17/11/2026 | <https://docs.aws.amazon.com/textract/latest/dg/what-is.html> |
+| 4 | - **Amazon Comprehend**: dịch vụ xử lý ngôn ngữ tự nhiên (NLP)<br>&emsp;+ Tìm hiểu các tính năng: phân tích cảm xúc (Sentiment Analysis), nhận diện thực thể, trích xuất cụm từ khóa và phát hiện PII<br>&emsp;+ Xem xét cách dùng Comprehend để phân loại phản hồi khách hàng | 18/11/2026 | 18/11/2026 | <https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html> |
+| 5 | - **AWS Secrets Manager & AWS KMS**: quản lý thông tin bí mật và khóa mã hóa<br>&emsp;+ Lưu các API key và thông tin xác thực (Gemini API, VNPay, GHN, Gmail SMTP) trong Secrets Manager thay vì để cứng trong biến môi trường Lambda<br>&emsp;+ Hiểu khóa đối xứng KMS, mã hóa phong bì (envelope encryption) và key policy | 19/11/2026 | 19/11/2026 | <https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html> |
+| 6 | - **AWS Step Functions**: điều phối luồng công việc trực quan cho ứng dụng serverless<br>&emsp;+ Tìm hiểu Amazon States Language (ASL), các trạng thái Task/Choice/Parallel và xử lý lỗi (`Retry`, `Catch`)<br>&emsp;+ Phân biệt Standard Workflows (chạy dài, thực thi đúng một lần) và Express Workflows (tải cao, thời gian ngắn) | 20/11/2026 | 20/11/2026 | <https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html> |
 
 ### Kết quả đạt được tuần 10:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Chạy thành công quy trình phân tích ảnh với Amazon Rekognition `DetectLabels`, S3 và truy vấn SQL trên Amazon Athena.
+* Hiểu cách Amazon Textract trích xuất bảng/biểu mẫu và cách Amazon Comprehend phân tích cảm xúc, thực thể trong văn bản.
+* Áp dụng AWS Secrets Manager và KMS để bảo vệ các khóa API bên thứ ba.
+* Nắm được cấu trúc state machine của AWS Step Functions, cơ chế `Retry`/`Catch` và khi nào chọn Standard hay Express workflow.

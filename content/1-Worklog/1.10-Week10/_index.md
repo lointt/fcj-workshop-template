@@ -1,57 +1,30 @@
 ---
 title: "Week 10 Worklog"
-date: 2024-01-01
+date: 2026-11-16
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 10 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Explore managed AWS AI services for vision and text: Amazon Rekognition, Amazon Textract, and Amazon Comprehend.
+* Combine Amazon Rekognition with Amazon Athena to query image analysis results using SQL.
+* Understand secrets management and encryption on AWS with AWS Secrets Manager and AWS KMS.
+* Learn serverless workflow orchestration with AWS Step Functions.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - **Amazon Rekognition**: deep learning–based image and video analysis service<br>&emsp;+ Tested `DetectLabels` via AWS CLI on 30 images from the Imagenette dataset stored in S3<br>&emsp;+ Compared `MinConfidence` thresholds (80 vs. 55) to observe the trade-off between precision and recall<br>&emsp;+ Exported JSON results to S3 and queried label statistics with Amazon Athena | 16/11/2026 | 16/11/2026 | <https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html> |
+| 3 | - **Amazon Textract**: automated text, form, and table extraction from scanned documents and PDFs<br>&emsp;+ Learned the difference between synchronous APIs (`DetectDocumentText`, `AnalyzeDocument`) and asynchronous APIs for multi-page PDFs<br>&emsp;+ Explored use cases such as invoice processing and digitizing product catalogs | 17/11/2026 | 17/11/2026 | <https://docs.aws.amazon.com/textract/latest/dg/what-is.html> |
+| 4 | - **Amazon Comprehend**: Natural Language Processing (NLP) service for extracting insights from text<br>&emsp;+ Learned key features: Sentiment Analysis, Entity Recognition, Key Phrase Extraction, and PII detection<br>&emsp;+ Explored how Comprehend can classify customer feedback and support tickets | 18/11/2026 | 18/11/2026 | <https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html> |
+| 5 | - **AWS Secrets Manager & AWS KMS**: managing credentials and encryption keys<br>&emsp;+ Stored API keys and credentials (Gemini API, VNPay, GHN, Gmail SMTP) in Secrets Manager instead of hardcoding in Lambda environment variables<br>&emsp;+ Understood symmetric KMS keys, envelope encryption, and key policies | 19/11/2026 | 19/11/2026 | <https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html> |
+| 6 | - **AWS Step Functions**: visual workflow orchestration for distributed serverless applications<br>&emsp;+ Learned Amazon States Language (ASL), Task/Choice/Parallel states, error handling (`Retry`, `Catch`)<br>&emsp;+ Compared Standard Workflows (long-running, exactly-once) vs. Express Workflows (high-volume, short duration) | 20/11/2026 | 20/11/2026 | <https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html> |
 
 ### Week 10 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Ran an end-to-end image analysis pipeline using Amazon Rekognition `DetectLabels`, S3, and Amazon Athena SQL queries.
+* Understood how Amazon Textract extracts structured data (forms, tables) from documents and how Amazon Comprehend analyzes text sentiment and entities.
+* Applied AWS Secrets Manager and KMS to secure third-party API keys and sensitive configuration.
+* Understood AWS Step Functions state machines, retry/catch error handling, and when to choose Standard vs. Express workflows.

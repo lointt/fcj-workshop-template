@@ -6,42 +6,32 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud AI Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects:
-
 ### Overall Evaluation
 
 **1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+The working environment is very friendly and open. Members of FCAJ are always ready to help whenever I run into difficulties, even outside working hours. The workspace is neat and comfortable, helping me focus better.
 
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+**2. Support from Mentors / Admin Team**  
+Mentors provide very detailed guidance, explain clearly whenever I do not understand something, and always encourage me to ask questions. The admin team supports procedures and documentation, creating favorable conditions for my work. I especially appreciate that mentors let me try and solve problems myself instead of just giving away the answers.
 
 **3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+The assigned work aligns well with what I learned at university while also expanding into new areas I had not been exposed to before. As a result, I both strengthened my foundational knowledge and gained practical skills.
 
 **4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+During the internship, I learned many new skills such as using project management tools, teamwork, and professional workplace communication. Mentors also shared real-world experiences that helped me better orient my career path.
 
 **5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+The company culture is very positive: everyone respects one another, works seriously, yet keeps a cheerful atmosphere. When facing urgent deadlines, everyone pulls together and supports each other regardless of role. This made me feel like a true part of the team, even as an intern.
 
 **6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+Flexible scheduling is provided when needed. In addition, getting to participate in AWS events is a big plus.
 
----
+### Some Feedback
 
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
-
----
+* The number of **approved office days is quite limited**, around 1–2 sessions per week, and sometimes none in a week.
+* Having **only 1 project** over a 3-month internship feels a bit light.
 
 ### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+
+* I hope AWS can **approve more office days** for interns.
+* I suggest having **1 mid-term project and 1 final project** during the 3-month internship.

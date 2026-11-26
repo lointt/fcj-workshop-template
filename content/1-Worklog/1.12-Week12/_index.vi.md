@@ -1,58 +1,30 @@
 ---
 title: "Worklog Tuần 12"
-date: 2024-01-01
+date: 2026-11-30
 weight: 12
 chapter: false
-pre: " <b> 1.12 </b> "
+pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 ### Mục tiêu tuần 12:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu truy vết phân tán với AWS X-Ray và rà soát dự án theo AWS Well-Architected Framework.
+* Ước tính và tối ưu chi phí vận hành hàng tháng bằng AWS Pricing Calculator.
+* Hoàn thiện các bài blog kỹ thuật, mục tự đánh giá, góp ý và xuất bản Báo cáo Thực tập hoàn chỉnh lên GitHub Pages.
+* Chuẩn bị tài liệu tóm tắt, kịch bản demo và tập duyệt cho buổi báo cáo cuối kỳ.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - **AWS X-Ray & Truy vết phân tán (Distributed Tracing)**:<br>&emsp;+ Tìm hiểu cách X-Ray theo dõi request xuyên suốt qua API Gateway, Lambda, DynamoDB và SQS<br>&emsp;+ Nắm khái niệm Service Map, Segment, Subsegment và cách tìm điểm nghẽn độ trễ trong ứng dụng serverless | 30/11/2026 | 30/11/2026 | <https://docs.aws.amazon.com/xray/latest/devguide/aws-xray.html> |
+| 3 | - **Rà soát theo AWS Well-Architected Framework**:<br>&emsp;+ Đánh giá kiến trúc dự án theo 6 trụ cột: Vận hành xuất sắc, Bảo mật, Độ tin cậy, Hiệu năng, Tối ưu chi phí và Bền vững<br>&emsp;+ Ghi nhận các đánh đổi kiến trúc và hướng mở rộng trong tương lai (multi-region DR, xoay vòng secret tự động) | 01/12/2026 | 01/12/2026 | <https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html> |
+| 4 | - **Ước tính chi phí & Hoàn thiện Blog kỹ thuật**:<br>&emsp;+ Hoàn tất bảng dự toán trên AWS Pricing Calculator (~5,14 USD/tháng cho 1.000 người dùng) và xuất tệp `Cost_Estimate.csv`<br>&emsp;+ Hoàn thiện và đăng tải các bài blog kỹ thuật (Bedrock AgentCore, IAM Access Analyzer, Rekognition + Athena) | 02/12/2026 | 02/12/2026 | <https://calculator.aws/> |
+| 5 | - **Hoàn thiện Báo cáo Thực tập (Hugo & GitHub Pages)**:<br>&emsp;+ Hoàn tất đầy đủ các mục song ngữ (EN/VI): Worklog, Proposal, Blogs, Events, Workshop, Tự đánh giá và Chia sẻ/Góp ý<br>&emsp;+ Kiểm tra build Hugo qua GitHub Actions, rà soát toàn bộ liên kết nội bộ và hình ảnh trên GitHub Pages | 03/12/2026 | 03/12/2026 | <https://gohugo.io/documentation/> |
+| 6 | - **Chuẩn bị báo cáo cuối kỳ & Tập duyệt Demo**:<br>&emsp;+ Soạn tài liệu tóm tắt dự án (Problem Statement, Proposed Solution, End-to-End Workflow, Security/Monitoring, Cost)<br>&emsp;+ Tập duyệt demo trực tiếp và chuẩn bị phần hỏi đáp để kết thúc kỳ thực tập First Cloud AI Journey | 04/12/2026 | 04/12/2026 | <https://hcm-rules.awsfcaj.com/5-scoring/> |
 
 ### Kết quả đạt được tuần 12:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hiểu cách truy vết phân tán bằng AWS X-Ray và đánh giá được dự án theo 6 trụ cột của AWS Well-Architected Framework.
+* Hoàn thiện bảng dự toán chi phí chi tiết (~5,14 USD/tháng) và đăng tải đầy đủ các bài blog kỹ thuật.
+* Xuất bản hoàn chỉnh Báo cáo Thực tập song ngữ lên GitHub Pages với đầy đủ liên kết, hình ảnh và CI/CD tự động.
+* Chuẩn bị xong tài liệu tổng kết và tập duyệt hoàn chỉnh phần demo dự án cuối kỳ.

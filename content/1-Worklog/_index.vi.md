@@ -25,3 +25,9 @@ Trong quá trình thực tập tại First Cloud AI Journey (từ 14/09/2026), t
 **Tuần 8:** [Bedrock Evaluation cho RAG, CloudTrail, GuardDuty, Amazon Q Business và IAM Access Analyzer](1.8-week8/)
 
 **Tuần 9:** [Bedrock Guardrails, IoT Greengrass, Lambda web functions, ALB và Amazon ECS](1.9-week9/)
+
+**Tuần 10:** [Amazon Rekognition + Athena, Textract, Comprehend, Secrets Manager & KMS và Step Functions](1.10-week10/)
+
+**Tuần 11:** [Triển khai & kiểm thử hoàn chỉnh Workshop (Next.js SSR, EventBridge/SQS, Chatbot RAG), siết bảo mật và dọn dẹp tài nguyên](1.11-week11/)
+
+**Tuần 12:** [AWS X-Ray, Well-Architected Framework, Pricing Calculator, hoàn thiện Báo cáo Thực tập trên GitHub Pages và demo cuối kỳ](1.12-week12/)

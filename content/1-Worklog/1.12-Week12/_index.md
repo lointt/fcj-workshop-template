@@ -1,57 +1,30 @@
 ---
 title: "Week 12 Worklog"
-date: 2024-01-01
+date: 2026-11-30
 weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 12 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Learn distributed tracing with AWS X-Ray and review the project against the AWS Well-Architected Framework.
+* Estimate and optimize monthly AWS operating costs using the AWS Pricing Calculator.
+* Finalize all technical blog posts, self-evaluation, feedback, and publish the complete Internship Report on GitHub Pages.
+* Prepare slides, demo script, and rehearse for the final internship presentation.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - **AWS X-Ray & Distributed Tracing**:<br>&emsp;+ Learned how X-Ray traces requests end-to-end across API Gateway, Lambda, DynamoDB, and SQS<br>&emsp;+ Understood Service Maps, Segments, Subsegments, and how to pinpoint latency bottlenecks in serverless apps | 30/11/2026 | 30/11/2026 | <https://docs.aws.amazon.com/xray/latest/devguide/aws-xray.html> |
+| 3 | - **AWS Well-Architected Framework Review**:<br>&emsp;+ Reviewed the project architecture across the 6 pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, and Sustainability<br>&emsp;+ Documented trade-offs and future improvements (e.g., multi-region DR, automated secret rotation) | 01/12/2026 | 01/12/2026 | <https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html> |
+| 4 | - **Cost Estimation & Technical Blogs**:<br>&emsp;+ Finalized the AWS Pricing Calculator estimate (~$5.14/month for 1,000 MAU) and exported `Cost_Estimate.csv`<br>&emsp;+ Completed and published technical blogs (Bedrock AgentCore, IAM Access Analyzer, Rekognition + Athena) | 02/12/2026 | 02/12/2026 | <https://calculator.aws/> |
+| 5 | - **Internship Report Finalization (Hugo & GitHub Pages)**:<br>&emsp;+ Completed all sections of the bilingual (EN/VI) Internship Report: Worklog, Proposal, Blogs, Events, Workshop, Self-Evaluation, and Feedback<br>&emsp;+ Verified Hugo build via GitHub Actions, checked all internal links and images on GitHub Pages | 03/12/2026 | 03/12/2026 | <https://gohugo.io/documentation/> |
+| 6 | - **Final Presentation & Demo Rehearsal**:<br>&emsp;+ Prepared the project summary (Problem Statement, Proposed Solution, End-to-End Workflow, Security/Monitoring, Cost)<br>&emsp;+ Rehearsed the live demo and Q&A session to wrap up the First Cloud AI Journey internship | 04/12/2026 | 04/12/2026 | <https://hcm-rules.awsfcaj.com/5-scoring/> |
 
 ### Week 12 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Understood distributed tracing with AWS X-Ray and evaluated the project against all 6 pillars of the AWS Well-Architected Framework.
+* Completed the detailed cost estimation (~$5.14/month) and published all technical blogs.
+* Published the complete bilingual Internship Report on GitHub Pages with working links, images, and automated CI/CD.
+* Prepared the final presentation summary and rehearsed the end-to-end project demo.

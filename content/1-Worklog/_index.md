@@ -25,3 +25,9 @@ Over the internship at First Cloud AI Journey (from 14/09/2026), I worked throug
 **Week 8:** [Bedrock Evaluation for RAG, CloudTrail, GuardDuty, Amazon Q Business, and IAM Access Analyzer](1.8-week8/)
 
 **Week 9:** [Bedrock Guardrails, IoT Greengrass, Lambda web functions, ALB, and Amazon ECS](1.9-week9/)
+
+**Week 10:** [Amazon Rekognition + Athena, Textract, Comprehend, Secrets Manager & KMS, and Step Functions](1.10-week10/)
+
+**Week 11:** [End-to-end Workshop deployment & testing (Next.js SSR, EventBridge/SQS, RAG Chatbot), security hardening, and cleanup](1.11-week11/)
+
+**Week 12:** [AWS X-Ray, Well-Architected Framework, Pricing Calculator, Internship Report on GitHub Pages, and final demo](1.12-week12/)

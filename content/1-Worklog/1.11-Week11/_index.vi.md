@@ -1,59 +1,30 @@
 ---
 title: "Worklog Tuần 11"
-date: 2024-01-01
+date: 2026-11-23
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 11:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thiện triển khai đầu-cuối cho Workshop Website Thương mại điện tử Serverless và Chatbot RAG Full-Duplex.
+* Kiểm thử 5 microservices backend, các worker bất đồng bộ EventBridge/SQS và tích hợp bên thứ ba (VNPay, GHN, Gmail SMTP).
+* Kiểm thử Chatbot RAG Full-Duplex, đồng bộ CDC bằng DynamoDB Streams và luồng chuyển nhân viên hỗ trợ.
+* Rà soát bảo mật, thiết lập giám sát CloudWatch và thực hành dọn dẹp tài nguyên sạch sẽ.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - **Triển khai & Kiểm thử Frontend SSR**:<br>&emsp;+ Build và deploy frontend Next.js 14 SSR lên S3 + Lambda SSR sau Amazon CloudFront và Edge WAF<br>&emsp;+ Kiểm tra phân phối ảnh sản phẩm từ S3, security headers và xác thực Cognito (đăng ký, đăng nhập, quên mật khẩu) | 23/11/2026 | 23/11/2026 | <https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/> |
+| 3 | - **Kiểm thử Backend Microservices & Hướng sự kiện**:<br>&emsp;+ Kiểm thử 5 microservices Lambda (`User`, `Catalog`, `Cart`, `Order`, `Payment Webhook`) qua REST API Gateway<br>&emsp;+ Xác nhận luồng thanh toán VNPay Sandbox và EventBridge → SQS → Workers (trừ kho, tạo vận đơn GHN Sandbox, gửi email qua Gmail SMTP) | 24/11/2026 | 24/11/2026 | <https://docs.aws.amazon.com/eventbridge/latest/userguide/> |
+| 4 | - **Kiểm thử Chatbot RAG Full-Duplex & CDC**:<br>&emsp;+ Kiểm tra xác thực WebSocket API (`ChatAuthorizer`) cho cả khách vãng lai và khách đã đăng nhập Cognito<br>&emsp;+ Xác nhận đồng bộ DynamoDB Streams → `DynamoDBSyncToS3`, đề xuất sản phẩm trong khung chat và gửi email `HumanRequested` cho nhân viên | 25/11/2026 | 25/11/2026 | <https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api.html> |
+| 5 | - **Siết bảo mật & Thiết lập giám sát**:<br>&emsp;+ Rà soát IAM Role theo nguyên tắc Least Privilege và kiểm tra phát hiện trên IAM Access Analyzer<br>&emsp;+ Cấu hình CloudWatch Logs, CloudWatch Alarms cho lỗi Lambda và cảnh báo email qua SNS | 26/11/2026 | 26/11/2026 | <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/> |
+| 6 | - **Hoàn thiện tài liệu Workshop & Thực hành dọn dẹp**:<br>&emsp;+ Hoàn thiện hướng dẫn Workshop chi tiết (mục 5.1–5.5) kèm ảnh chụp màn hình và các bước kiểm thử<br>&emsp;+ Thực hành dọn dẹp toàn bộ: làm trống bucket S3 có versioning, chạy `terraform destroy` và xóa log CloudWatch, IAM còn sót | 27/11/2026 | 27/11/2026 | <https://developer.hashicorp.com/terraform/cli/commands/destroy> |
 
 ### Kết quả đạt được tuần 11:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Kiểm thử hoàn chỉnh toàn bộ website thương mại điện tử Serverless và 5 microservices backend.
+* Xác nhận luồng xử lý đơn hàng bất đồng bộ (trừ kho, giao vận GHN, thông báo Gmail) hoạt động ổn định với EventBridge, SQS và DLQ.
+* Xác nhận Chatbot RAG trả lời thời gian thực, đồng bộ vector tự động qua DynamoDB Streams và chuyển tiếp nhân viên hỗ trợ thành công.
+* Hoàn thiện tài liệu Workshop và xác nhận dọn dẹp sạch tài nguyên bằng `terraform destroy` để tránh phát sinh chi phí.
