@@ -10,9 +10,10 @@ pre: " <b> 4.4. </b> "
 
 ### Event Information
 
-- **Event**: FPT University Workshop, organized by First Cloud AI Journey (FCAJ)
-- **Theme**: Secure, reliable and scalable enterprise AI on the cloud
-- **Format**: Workshop with two main parts: moving AI from prototype to production, and case studies.
+- **Date**: Saturday, November 14, 2024
+- **Location**: 26th Floor, Bitexco Financial Tower, Ho Chi Minh City
+- **Organizers**: FPT in collaboration with AWS First Cloud Journey
+- **Format**: A workshop consisting of two main parts: transitioning AI from prototype to production, and exploring case studies
 
 ### Event Objectives
 

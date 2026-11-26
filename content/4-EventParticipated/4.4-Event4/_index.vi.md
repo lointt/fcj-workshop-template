@@ -10,8 +10,9 @@ pre: " <b> 4.4. </b> "
 
 ### Thông Tin Sự Kiện
 
-- **Sự kiện**: FPT University Workshop, do First Cloud AI Journey (FCAJ) tổ chức
-- **Chủ đề**: Enterprise AI an toàn, đáng tin cậy và có khả năng mở rộng trên cloud
+- **Thời gian**: Thứ Bảy, 14/11/2024
+- **Địa điểm**: Tầng 26, Bitexco Financial Tower, TP. Hồ Chí Minh
+- **Đơn vị tổ chức**: FPT kết hợp AWS First Cloud Journey
 - **Hình thức**: Workshop gồm hai phần chính: đưa AI từ prototype lên production, và các case study
 
 ### Mục Đích Của Sự Kiện

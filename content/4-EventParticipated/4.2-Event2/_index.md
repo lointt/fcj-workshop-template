@@ -8,6 +8,12 @@ pre: " <b> 4.2. </b> "
 
 # Summary Report: “AWS Cloud and AI Day Hanoi”
 
+### Event Information
+
+- **Time**: Tuesday, September 26, 2024
+- **Location**: 26F, Bitexco Financial Tower, Ho Chi Minh City
+- **Organizers**: AWS Viet Nam
+
 ### Event Objectives
 
 - Show how enterprises can adopt agentic AI while keeping cost, data and processes under control

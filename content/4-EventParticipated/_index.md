@@ -6,39 +6,26 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** for your report, including this warning.
-{{% /notice %}}
+During my internship at First Cloud AI Journey, I participated in four events. Each event provided practical knowledge about AWS, enterprise AI, cloud security, and real-world architectures.
 
-> In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
-> 
-> Each event should be presented in the format Event 1, Event 2, Event 3…, along with the following details:
-> * Event name
-> * Date and time
-> * Location (if applicable)
-> * Your role in the event (attendee, event support, speaker, etc.)
-> * A brief description of the event’s content and main activities
-> * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
-> * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
-
-During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
-
-### [Event 1](4.1-Event1/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
-
-&emsp;**Date & Time:** 09:00, August 13, 2025  
-
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
+### [Event 1 - The Thinking Behind Building The Bot](4.1-event1/)
+&emsp;**Time:** Thursday, 26/09/2024, 09:00 – 12:00  
+&emsp;**Location:** 26F, Bitexco Financial Tower, Ho Chi Minh City  
 &emsp;**Role:** Attendee  
+&emsp;**Description:** Talkshow co-organized by CMC Global and AWS First Cloud Journey, combined with a Buildathon kickoff and mock interview session. Focused on the engineering mindset behind building enterprise bots beyond simply calling an LLM API.
 
----
-
-### [Event 2](4.2-Event2/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
-
-&emsp;**Date & Time:** 09:00, August 13, 2025  
-
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
+### [Event 2 - AWS Cloud and AI Day Hanoi](4.2-event2/)
+&emsp;**Time:** Tuesday, 29/09/2026  
 &emsp;**Role:** Attendee  
+&emsp;**Description:** Explored how enterprises adopt agentic AI while controlling cost, data, and workflows. Covered Amazon Quick, Kiro, AWS Security Agent for proactive application security, and Model Context Protocol (MCP) with AWS MCP servers.
+
+### [Event 3 - FCAJ Meetup – First Cloud AI Journey](4.3-event3/)
+&emsp;**Time:** Saturday, 24/10/2026, 08:30  
+&emsp;**Location:** 26F, Bitexco Financial Tower, Ho Chi Minh City  
+&emsp;**Role:** Attendee  
+&emsp;**Description:** Networking and knowledge-sharing meetup covering practical web application security with AWS Security Agent, AI agent concepts, and the architecture of Amazon Bedrock AgentCore (Runtime and Memory).
+
+### [Event 4 - FPT University Workshop – From Prototype to Production](4.4-event4/)
+&emsp;**Time:** Saturday, 14/11/2026  
+&emsp;**Role:** Attendee  
+&emsp;**Description:** Workshop organized by First Cloud AI Journey (FCAJ) on building secure, reliable, and scalable enterprise AI on the cloud. Addressed the gap between academic AI prototypes and production systems across four pillars (security, scalability, reliability, and cost) with real-world case studies.

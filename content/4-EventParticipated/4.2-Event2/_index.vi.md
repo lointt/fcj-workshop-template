@@ -8,6 +8,12 @@ pre: " <b> 4.2. </b> "
 
 # Bài thu hoạch “AWS Cloud and AI Day Hanoi”
 
+### Thông Tin Sự Kiện
+
+- **Thời gian**: Thứ ba, 29/09/2024
+- **Địa điểm**: Tầng 26, Bitexco Financial Tower, TP. Hồ Chí Minh
+- **Đơn vị tổ chức**: AWS Viet Nam
+
 ### Mục Đích Của Sự Kiện
 
 - Chia sẻ cách doanh nghiệp áp dụng agentic AI mà vẫn kiểm soát được chi phí, dữ liệu và quy trình

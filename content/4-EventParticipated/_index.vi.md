@@ -6,41 +6,26 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Trong quá trình thực tập tại First Cloud AI Journey, tôi đã tham gia 4 sự kiện. Mỗi buổi đều mang lại kiến thức thực tế về AWS, AI doanh nghiệp, bảo mật đám mây và các kiến trúc triển khai ngoài thực tế.
 
-> Trong phần này, các bạn cần liệt kê và mô tả chi tiết các sự kiện (event) mà mình đã tham gia trong suốt quá trình thực tập hoặc làm việc. 
-> 
-> Mỗi sự kiện nên được trình bày theo định dạng Event 1, Event 2, Event 3…, kèm theo các thông tin:
-> * Tên sự kiện
-> * Thời gian tổ chức
-> * Địa điểm (nếu có)
-> * Vai trò của bạn trong sự kiện (người tham dự, hỗ trợ tổ chức, diễn giả, v.v.)
-> * Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện
-> * Kết quả hoặc giá trị đạt được (bài học, kỹ năng mới, đóng góp cho nhóm/dự án)
-> * Việc liệt kê này giúp thể hiện rõ sự tham gia thực tế của bạn, cũng như các kỹ năng mềm và kinh nghiệm bạn đã tích lũy qua từng sự kiện.
+### [Event 1 - The Thinking Behind Building The Bot](4.1-event1/)
+&emsp;**Thời gian:** Thứ Năm, 26/09/2024, 09:00 – 12:00  
+&emsp;**Địa điểm:** Tầng 26, Bitexco Financial Tower, TP. Hồ Chí Minh  
+&emsp;**Vai trò:** Người tham dự  
+&emsp;**Nội dung:** Talkshow do CMC Global phối hợp cùng AWS First Cloud Journey tổ chức, kết hợp khởi động Buildathon và phiên phỏng vấn thử. Tập trung vào tư duy xây dựng bot doanh nghiệp vượt xa việc chỉ gọi API của một mô hình ngôn ngữ lớn.
 
+### [Event 2 - AWS Cloud and AI Day Hanoi](4.2-event2/)
+&emsp;**Thời gian:** Thứ Ba, 29/09/2026  
+&emsp;**Vai trò:** Người tham dự  
+&emsp;**Nội dung:** Chia sẻ cách doanh nghiệp áp dụng agentic AI mà vẫn kiểm soát chi phí, dữ liệu và quy trình. Giới thiệu Amazon Quick, Kiro, AWS Security Agent cho bảo mật ứng dụng chủ động và MCP cùng các AWS MCP servers.
 
-Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
+### [Event 3 - FCAJ Meetup – First Cloud AI Journey](4.3-event3/)
+&emsp;**Thời gian:** Thứ Bảy, 24/10/2026, 08:30  
+&emsp;**Địa điểm:** Tầng 26, Bitexco Financial Tower, TP. Hồ Chí Minh  
+&emsp;**Vai trò:** Người tham dự  
+&emsp;**Nội dung:** Buổi meetup giao lưu và chia sẻ kiến thức thực tế về bảo mật ứng dụng web với AWS Security Agent, các khái niệm AI agent và kiến trúc Amazon Bedrock AgentCore (Runtime và Memory).
 
-### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
-
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
-
-
-
-### [Event 2](4.2-Event2/)
-&emsp;**Tên sự kiện:** AWS Cloud Day and AI Day Hanoi - Watch Party
-
-&emsp;**Thời gian:** 8:00 AM - 5:00 PM ngày 29/09/2026
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
-
+### [Event 4 - FPT University Workshop – From Prototype to Production](4.4-event4/)
+&emsp;**Thời gian:** Thứ Bảy, 14/11/2026  
+&emsp;**Vai trò:** Người tham dự  
+&emsp;**Nội dung:** Workshop do First Cloud AI Journey (FCAJ) tổ chức về xây dựng hệ thống Enterprise AI an toàn, đáng tin cậy và mở rộng tốt trên cloud. Phân tích khoảng cách giữa prototype học thuật và hệ thống production theo 4 trụ cột (bảo mật, mở rộng, độ tin cậy, chi phí) kèm các case study thực tế.
